@@ -4,17 +4,10 @@
 }
 
 .row {
-    height: 70px;
-    width: 100%;
-}
-
-.row-2 {
-    height: 90px;
     width: 100%;
 }
 
 .box {
-    height: 70px;
     width: 100%;
     border: 1px solid white;
     background-color: blue;
@@ -22,14 +15,22 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 15px;
 }
 
 .inner-box {
-    height: 70px;
     width: 100%;
     background-color: green;
     color: white;
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+.space {
+    height: 50px;
+    width: 100%;
+    background-color: white;
 }

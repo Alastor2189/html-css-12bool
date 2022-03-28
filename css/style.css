@@ -8,11 +8,26 @@
     width: 100%;
 }
 
+.row-2 {
+    height: 90px;
+    width: 100%;
+}
+
 .box {
     height: 70px;
     width: 100%;
     border: 1px solid white;
     background-color: blue;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.inner-box {
+    height: 70px;
+    width: 100%;
+    background-color: green;
     color: white;
     justify-content: center;
     display: flex;
